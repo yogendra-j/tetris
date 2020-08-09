@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  background: #fff;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+}
+#canvas {
+  position: absolute;
+  opacity: 0.97;
+  background: #fff;
+  margin-left: 500px;
+  margin-top: 90px;
+  border: solid 2px rgb(24, 99, 150);
+}
